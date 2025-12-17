@@ -1,3 +1,5 @@
+final report: `final_report.pdf`
+
 CVCL reproduce: `/multimodal-baby`
 
 Steve reproduce: `/steve`
