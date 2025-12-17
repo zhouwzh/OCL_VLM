@@ -1,0 +1,24 @@
+# text_encoder config
+# we can work on different text encoders and different embedding types
+"text_encoder":
+  "vocab": '/scratch/wz3008/SlotAttn/clip/vocab.json'
+  "embedding_dim": 512
+  "text_encoder": "embedding"
+  "image_feature_map_dim": 64
+
+"slotcontrast":
+  "config": '/home/wz3008/slotcontrast/configs/saycam.yml'
+  "continue_from": '/home/wz3008/slotcontrast/logs/saycam/2025-08-25-19-07-43_train_saycam_video/checkpoints/step=90615.ckpt'
+  "config_overrides_file": None
+  "config_overrides": None
+  "pooling": "mean"
+  "ret_type": "feat" # feat or slot
+
+"steve":
+  'steve_ckpt': /home/wz3008/logs/2025-08-07T05:13:59.305236_no_dvae/best_model.pt
+  "ret_type": "feat" # feat or slot
+
+"metaslot":
+  "cfg_file": /scratch/wz3008/SlotAttn/MetaSlot/save/dinosaur-saycam-ViT_B16/max_slot-7/7-dinosaur-saycam-ViT_B16.py
+  "ckpt_file": /scratch/wz3008/SlotAttn/MetaSlot/save/dinosaur-saycam-ViT_B16/max_slot-7/42_20251019_201055/checkpoint.pth.tar
+

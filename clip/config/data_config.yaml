@@ -1,0 +1,8 @@
+train_img_dir : '/saycam_transcript_5fps/'
+train_annotation_file : '/scratch/yy2694/data/saycam/saycam_transcript_frames/train.json'
+val_annotation_file: '/scratch/yy2694/data/saycam/saycam_transcript_frames/val.json'
+test_annotation_file: '/scratch/yy2694/data/saycam/saycam_transcript_frames/test.json'
+"vocab": '/scratch/wz3008/SlotAttn/clip/vocab.json'
+"multiple_frames": True
+"image_size": 256
+
