@@ -1,3 +1,5 @@
+Weizhen Zhou `wz3008`, Yuheng Wu `yw5372`, Xingyu Han `xh2787`
+
 final report: `final_report.pdf`
 
 CVCL reproduce: `/multimodal-baby`
